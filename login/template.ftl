@@ -21,6 +21,16 @@
 <body>
     <canvas id="three-canvas"></canvas>
     
+    <div id="splash-screen">
+        <div class="intro-container">
+            <img src="${url.resourcesPath}/images/intro-1.png" class="intro-img-1" alt="Building...">
+            <img src="${url.resourcesPath}/images/intro-2.png" class="intro-img-2" alt="Complete">
+        </div>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
     <div class="top-bar">
         <div class="logo-left">
             <img src="${url.resourcesPath}/images/jakson-green-logo.svg" alt="Jakson Green">

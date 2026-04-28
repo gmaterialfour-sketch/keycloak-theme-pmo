@@ -1,4 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Splash Screen Logic
+    const splash = document.getElementById('splash-screen');
+    if (splash) {
+        // After 1.5 seconds, transition to phase 2 (unfolding)
+        setTimeout(() => {
+            splash.classList.add('splash-phase-2');
+        }, 1500);
+
+        // After 4 seconds, hide splash screen and reveal login page
+        setTimeout(() => {
+            splash.classList.add('splash-hidden');
+            // Enable scrolling after splash is gone if needed
+            document.body.style.overflow = 'auto';
+        }, 4000);
+    }
+
     const inputs = document.querySelectorAll('input');
     
     inputs.forEach(input => {
