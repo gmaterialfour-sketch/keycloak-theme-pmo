@@ -1,0 +1,5 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="45" font-family="Arial" font-size="30" font-weight="bold" fill="#00ff88">JAKSON</text>
+  <text x="130" y="45" font-family="Arial" font-size="30" fill="#ffffff">GREEN</text>
+  <rect x="10" y="50" width="180" height="4" fill="#00ff88" />
+</svg>

@@ -1,0 +1,36 @@
+.tilt-element {
+    transform-style: preserve-3d;
+}
+
+.depth-1 {
+    transform: translateZ(20px);
+}
+
+.depth-2 {
+    transform: translateZ(40px);
+}
+
+.depth-3 {
+    transform: translateZ(60px);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px) translateZ(30px); }
+    50% { transform: translateY(-10px) translateZ(40px); }
+    100% { transform: translateY(0px) translateZ(30px); }
+}
+
+.floating {
+    animation: float 4s ease-in-out infinite;
+}
+
+.glow-effect {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(0, 255, 136, 0.2) 0%, transparent 70%);
+    pointer-events: none;
+    border-radius: 50%;
+    z-index: 10;
+    mix-blend-mode: screen;
+}
