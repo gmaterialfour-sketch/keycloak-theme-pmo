@@ -44,6 +44,12 @@
         
         <div class="login-right">
             <div class="login-card-wrapper tilt-element">
+                <!-- Mobile Only Logos -->
+                <div class="mobile-logos">
+                    <img src="${url.resourcesPath}/images/jakson-green-logo.svg" alt="Jakson Green">
+                    <img src="${url.resourcesPath}/images/endrgxiq-logo.svg" alt="Endrgxiq">
+                </div>
+
                 <div class="card-header-icon">
                     <div class="shield-box">
                         <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,7.3 16,7.9V11C16,14.3 13.9,17.3 11,18.5C11,18.5 10.9,18.5 10.8,18.4C8,17.2 6,14.2 6,11V7.9C7.2,7.3 8.6,7 10,7H12Z"/></svg>
